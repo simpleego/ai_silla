@@ -1,7 +1,7 @@
 # 간단한 링크를 이용한 웹페이지 만들기 문제
 
 ## 링크태그
-### <a href="http://naver.com/" >xxxx</a>
+### <a href="http://naver.com/" >네이버</a>
 ## 리스트 태그
 ###
 <pre>
