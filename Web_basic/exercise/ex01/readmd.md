@@ -12,4 +12,4 @@
   </ol>
 </pre>
 ## 이미지 태그
-### <img src="xxxx.xxx" />
+### <img src="xxxx.xxx" alt="이미지 태그 사용" />
