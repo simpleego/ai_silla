@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 연습</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>회원가입</legend>
+        <label>아이디 : </label><input type="text" 
+               placeholder="아이디를 입력하세요"><br>
+        <label>비번 : </label> <input type="password">
+
+        <br>
+        <label>성별 :</label> 
+            <input type="radio" name="gender"  checked value="m">남자
+            <input type="radio" name="gender"  value="f">여자
+            <input type="radio" name="gender" value="t">중성
+        <br>
+        <label>듣고싶은 과목</label><br>
+        <input type="checkbox" name="subject" value="c">C언어
+        <input type="checkbox" name="subject" value="java">java
+        <input type="checkbox" name="subject" checked value="python">python
+        <input type="checkbox" name="subject" disabled value="html">html
+        <input type="checkbox" name="subject" checked value="css">css
+
+        <br>
+        <label>듣고싶은 과목 하나만</label><br>
+        <select name="subject" size="3">
+            <option value="c">C</option>
+            <option value="j">java</option>
+            <option value="p">python</option>
+            <option value="h">html</option>
+            <option value="c">Css</option>
+        </select>
+    <br>
+    <label>듣고싶은 과목 2개이상</label><br>
+    <select name="subject" size="4" multiple>
+        <option value="c">C</option>
+        <option value="j">java</option>
+        <option value="p">python</option>
+        <option value="h">html</option>
+        <option value="c">Css</option>
+    </select>
+    <br>
+    <label>자기소개</label>
+    <textarea rows="5" cols="20">
+    </textarea>
+    <br>
+    <label>파일첨부</label>
+    <input type="file" >
+    <input type="submit" value="가입">
+    <br>
+    <label>생일</label>
+    <input type="date">
+    <br>
+    좋아하는 색을 골라주세요:<br>
+    <input type="color" name="color">
+     <br>
+    당신이 가장 좋아하는 숫자를 골라주세요!!:<br>
+     <input type="number" name="number" min="5" max="10">
+    <br>
+     당신이 가장 좋아하는 숫자를 골라주세요!!:<br>
+     1<input type="range" name="range_number" min="1" max="12">12
+    </fieldset>
+    </form>
+</body>
+</html>
