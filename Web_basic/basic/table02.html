@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테이블</title>
+    <style>
+        table, th, td {
+            border: 1px solid #333;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
+        }
+        th {
+            padding: 10px;
+            background-color: #ccc;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>금액</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>홍길동</td>
+                <td>053</td>
+            </tr>
+            <tr>
+                <td>홍길순</td>
+                <td>456</td>                
+            </tr>
+            <tr>
+                <td colspan="2">합계 : 509</td>
+            </tr>
+        </tbody>        
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>금액</th>
+                <th>순번</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>홍길동</td>
+                <td>053</td>
+                <td rowspan="2">1</td>
+            </tr>
+            <tr>
+                <td>홍길순</td>
+                <td>456</td>                
+            </tr>            
+        </tbody>        
+    </table>
+</body>
+</html>
