@@ -45,6 +45,11 @@
             background-color: #ddd;
             text-align: center;
         }
+
+        .coffee img {
+            border-radius: 10px;
+            border: 2px solid #825708;
+        }
     </style>
 </head>
 
@@ -53,28 +58,38 @@
         <h1 id="title"> 커피 주문기</h1>
         <div id="coffees">
             <div class="coffee">
-                <img src="images/americano.jfif" width="100">
+                <a href="detail/americano.html">
+                    <img src="images/americano.jfif" width="100" height="110">
+                </a>
                 <p>아메리카노</p>
                 <p>가격 : <span>2,000원</span></p>
                 <p>수량 : <span>20개</span></p>
-                <button>주문</button>
+                <button onclick="showMenu()">주문</button>
             </div>
             <div class="coffee">
-                <img src="images/americano.jfif" width="100">
-                <p>아메리카노</p>
-                <p>가격 : <span>2,000원</span></p>
+                <a href="detail/latte.html">
+                    <img src="images/latte.jfif" width="100" height="110">
+                </a>
+                <p>라떼</p>
+                <p>가격 : <span>2,500원</span></p>
                 <p>수량 : <span>20개</span></p>
-                <button>주문</button>
+                <button onclick="showMenu()">주문</button>
             </div>
             <div class="coffee">
-                <img src="images/americano.jfif" width="100">
-                <p>아메리카노</p>
-                <p>가격 : <span>2,000원</span></p>
+                <a href="detail/moca.html">
+                    <img src="images/moca.jfif" width="100" height="110">
+                </a>
+                <p>모카</p>
+                <p>가격 : <span>3,000원</span></p>
                 <p>수량 : <span>20개</span></p>
-                <button>주문</button>
+                <button onclick="showMenu()">주문</button>
             </div>
         </div>
     </div>
 </body>
-
+<script>
+function showMenu(){
+    alert("모카커피 선택")
+}
+</script>
 </html>
