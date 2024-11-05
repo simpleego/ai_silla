@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>화면출력</title>
+</head>
+<body> 
+   
+    <script>
+        function add(){
+
+            let a_ ="Hello"
+
+            a=document.getElementById("a").value
+            b=document.getElementById("b").value
+            console.log(typeof(a))
+            console.log(typeof(b))
+
+            // sum = Number(a) + Number(b)
+
+            b1 = parseInt(b)
+            console.log(typeof(b1))
+
+            sum = parseInt(a) + b1
+            console.log(sum)
+
+            document.getElementById("sum").value = sum
+
+            // 전역변수 출력
+            console.log(a_)
+        }
+
+        let a_ = ' a: <input type="text" id="a" value="10"><br> '
+        b_ = ' b: <input type="text" id="b" value="20"><br> '
+        sum_ = ' 합계: <input type="text" id="sum" readonly><br> '
+        add_ = ' <button onclick="add()">합계</button> '
+
+        // 브라우저 화면에 태그를 출력
+        document.write(a_)
+        document.write(b_)
+        document.write(sum_)
+        document.write(add_)
+    </script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>간단한 계산기</title>
+    <style>
+        #container {
+            width: 300px;
+            margin: 60px auto;
+            border: 10px solid #eee;
+            padding: 10px;
+        }
+        input {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>간단한 계산기</h1>
+        <!-- <form> -->
+            숫자 1 : <input type="text" id="num1" value="10"><br>
+            숫자 2 : <input type="text" id="num2" value="20"><br>
+
+            <button onclick="add()">+</button>
+            <button onclick="sub()">-</button>
+            <button onclick="mul()">x</button>
+            <button onclick="div()">/</button>
+            <br><br><br>
+            결과 : <input type="text" id="result"><br>
+        <!-- </form> -->
+    </div>
+</body>
+<script>
+
+function getNumbers(){
+    num1 = document.getElementById('num1').value;
+    num2 = document.getElementById('num2').value;
+}    
+
+function add(event){
+
+    // event.preventDefault();
+    
+    getNumbers()
+    result = Number(num1) + Number(num2)
+    document.getElementById("result").value = result;
+}
+function sub(){
+    getNumbers()
+    result = Number(num1) - Number(num2)
+    document.getElementById("result").value = result;
+}
+function mul(){
+    getNumbers()
+    result = Number(num1) * Number(num2)
+    document.getElementById("result").value = result;
+}
+
+function div(){
+    getNumbers()
+    num2 = Number(num2)
+    result = 0
+
+    if (num2 != 0) {
+        result = Number(num1) / Number(num2)
+    }
+    document.getElementById("result").value = result;
+}
+    
+</script>
+</html>

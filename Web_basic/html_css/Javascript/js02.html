@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>화면출력</title>
+</head>
+<body>
+    a: <input type="text" id="a" value="10"><br>
+    b: <input type="text" id="b" value="20"><br>
+    합계: <input type="text" id="sum" readonly><br>
+
+    <script>
+        a=document.getElementById("a").value
+        b=document.getElementById("b").value
+
+        sum = Number(a) + Number(b)
+        console.log(sum)
+
+        document.getElementById("sum").value = sum
+        // alert('합 :'+sum)
+    </script>
+</body>
+</html>

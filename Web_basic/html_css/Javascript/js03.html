@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>화면출력</title>
+</head>
+<body> 
+
+    <script>
+        a_ = ' a: <input type="text" id="a" value="10"><br> '
+        b_ = ' b: <input type="text" id="b" value="20"><br> '
+        sum_ = ' 합계: <input type="text" id="sum" readonly><br> '
+
+        // 브라우저 화면에 태그를 출력
+        document.write(a_)
+        document.write(b_)
+        document.write(sum_)
+
+        a=document.getElementById("a").value
+        b=document.getElementById("b").value
+
+        sum = Number(a) + Number(b)
+        console.log(sum)
+
+        document.getElementById("sum").value = sum
+        // alert('합 :'+sum)
+    </script>
+</body>
+</html>
