@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js 사용법</title>
+    <script src="http://127.0.0.1:5500/js/myscript.js"></script>
+    <style>
+        #wrapper {
+            width: 400px;
+            margin: 50px auto;
+            padding: 10px;
+            border: 10px solid #eee;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>JS 스크립트 사용법</h1>
+        <ol>
+            <li>body 태그 내에서</li>
+            <li>head 태그에서</li>
+            <li>외부에 기술
+                <ol>
+                    <li>WEb 주소(URL) <span id="addr">http://naver.com/index.html</span></li>
+                    <li>사이트 상대경로</li>
+                    <li>사이츠 절대경로</li>
+                </ol>
+            </li>
+        </ol>
+        <p>네이버 주소 : <span id="naver"></span></p>
+        <button type="button" onclick="set_naver()">네이버 주소 가져오기</button>
+    </div>
+    <script>
+        addr = addr()
+        console.log(addr)
+        console.log(typeof(addr))
+        console.log(addr.innerHTML)    
+        alert(address())
+       
+    function set_naver(){
+        naver_id = document.getElementById("naver")
+        naver_id.innerHTML = addr.innerHTML
+    }
+    </script>
+</body>
+
+</html>
