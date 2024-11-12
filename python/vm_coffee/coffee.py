@@ -1,3 +1,5 @@
+import material as m
+
 def coffee_process(menu):   
     global user_coins
 
@@ -20,6 +22,10 @@ def make_coffee(coffee):
 
     price = coffee_price[coffee]
 
+    # 커피 제조과정
+    print(m.coffee_material['coffee'])
+
+
     if user_coins >= price:
         print(coffee,' 커피 나왔습니다.')
         user_coins -= price
@@ -27,11 +33,20 @@ def make_coffee(coffee):
 
 def input_coins():
     global user_coins
+    in_coins = -1
 
     print('동전입력')
-    in_coins = int(input('메뉴에 알맞은 동전입력 : '))  
-    user_coins += in_coins
-    print('user_coins: ',user_coins)
+    
+    while True:
+        try:
+            in_coins = int(input('메뉴에 알맞은 동전입력 : ')) 
+        except:
+            print('동전은 숫자로 입력하세요')
+
+        if in_coins > 0:
+            user_coins += in_coins
+            print('user_coins: ',user_coins)
+            break
 
 def admin_total_sales():
     print('총 판매금액 : ',vm_coins)
@@ -52,8 +67,10 @@ def show_menu():
     """ 
     print(coffee_menu)
 
-
 user_coins = 0  # 사용자가 입력한 동전
 vm_coins = 0 # 자판기가 판매한 동전
 # coffee_price = [300,300,200]  # 커피 가격
 coffee_price = {'밀크':300,'설탕':300,'블랙':200} # 커피 가격
+
+#input_coins()
+make_coffee('밀크')
