@@ -1,19 +1,14 @@
-from coffee import show_menu
-from coffee import coffee_process
+from coffee import show_menu, coffee_process
 import coffee
 
+menu = '0'
 
-while True:
+while menu != '5':
 
-    show_menu()    
-
+    show_menu() 
     menu = input('메뉴선택 : ')
-
     coffee_process(menu)
-
     print('잔 액: ', coffee.user_coins)
+    
 
-    if menu == '5':
-        break
-
-print('----------프로그램 종료---------------')
+print('---프로그램 종료---')
