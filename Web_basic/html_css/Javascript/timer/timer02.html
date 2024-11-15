@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    날짜시간 : <p><span id="t1"></span></p>
+    
+    카운터 :  <p><span id="t2"></span>msec</p>
+
+    <button>타이머 종료</button>
+</body>
+<script>
+    // 'gogo'라는 글자가 3초마다 나타난다.
+    upCount = 0;
+    const timer = setInterval(() => {
+        date = Date().toString()
+        document.querySelector('#t1').innerText = date
+    }, 1000)
+
+    upCount1 = 0;
+    const timer1 = setInterval(() => {
+        upCount1++
+        if (upCount1 == 1000){
+            upCount1 = 0
+        }
+        document.querySelector('#t2').innerText = upCount1
+    }, 1)
+
+    // 'h1El'을 클릭하면 함수가 종료된다.
+    const h1El = document.querySelector('button')
+    h1El.addEventListener('click', () => {
+        clearInterval(timer)
+        clearInterval(timer1)
+    })
+</script>
+
+</html>

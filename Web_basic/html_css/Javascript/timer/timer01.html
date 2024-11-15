@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>타이머 종료</h1>
+</body>
+<script>
+    // 'gogo'라는 글자가 3초뒤에 나타난다.
+    const timer = setTimeout(() => {
+        console.log('gogo')
+    }, 3000)
+
+    // 'h1El'을 클릭하면 함수가 종료된다.
+    const h1El = document.querySelector('h1')
+    h1El.addEventListener('click', () => {
+        clearTimeout(timer)
+        console.log('clicked')
+    })
+</script>
+
+</html>
