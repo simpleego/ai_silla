@@ -20,16 +20,52 @@ def coffee_process(menu):
 def make_coffee(coffee):
     global coffee_price, user_coins, vm_coins
 
-    price = coffee_price[coffee]
-
-    # 커피 제조과정
-    print(m.coffee_material['coffee'])
-
+    price = coffee_price[coffee] 
 
     if user_coins >= price:
-        print(coffee,' 커피 나왔습니다.')
+
+        # 커피 제조과정
+        if coffee == '밀크':
+            if check_materials(coffee):
+                m.coffee_material['coffee'] -= 10
+                m.coffee_material['cream'] -= 20
+                m.coffee_material['sugar'] -= 10
+                print(coffee,' 커피 나왔습니다.')
+            else:
+                print(coffee,' 커피 재료 부족..')
+        elif coffee == '설탕':
+            if check_materials(coffee):
+                m.coffee_material['coffee'] -= 10
+                m.coffee_material['sugar'] -= 10
+            else:
+                print(coffee,' 커피 재료 부족..')
+        elif coffee == '블랙':
+            if check_materials(coffee):
+                m.coffee_material['coffee'] -= 10            
+            else:
+                print(coffee,' 커피 재료 부족..')
+        
         user_coins -= price
         vm_coins += price
+
+    show_materials()
+
+def check_materials(material):
+    match material:
+        case '밀크':
+            if m.coffee_material['coffee'] >= 10 and \
+                m.coffee_material['cream'] >= 20 and \
+                m.coffee_material['sugar'] >= 10:
+                return True
+        case '설탕':
+            if m.coffee_material['coffee'] >= 10 and \
+                m.coffee_material['sugar'] >= 10:
+                return True
+        case '블랙':
+            if m.coffee_material['coffee'] >= 10:
+                return True            
+        
+    return False
 
 def input_coins():
     global user_coins
@@ -50,6 +86,12 @@ def input_coins():
 
 def admin_total_sales():
     print('총 판매금액 : ',vm_coins)
+
+def show_materials():
+    print(' --------- 커피 재고 ----------- ')
+    print('커피 : ', m.coffee_material['coffee'])
+    print('프림 : ', m.coffee_material['cream'])
+    print('설탕 : ', m.coffee_material['sugar'])
 
 def show_menu():  
     coffee_menu = """
