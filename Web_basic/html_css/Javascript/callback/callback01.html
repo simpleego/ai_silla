@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    function sayHello(name, callback) {
+        const words = '안녕하세요 내 이름은 ' + name + ' 입니다.';
+
+        callback(words); // 매개변수의 함수(콜백 함수) 호출
+    }
+
+    sayHello("인파", function (name) {
+        console.log(name); // 안녕하세요 내 이름은 인파 입니다.
+    });
+
+</script>
+
+</html>

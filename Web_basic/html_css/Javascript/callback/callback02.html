@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    let add = 10; // 변수 add
+
+    function sum(x, y, callback) {
+        callback(x + y); // 콜백함수 호출
+    }
+
+    // 이름 있는 콜백함수 작성
+    sum(1, 2, (result) => {
+        console.log(result); // 3
+    });
+
+    // 변수 add가 함수 add가 되어버린다.
+    console.log(add); // function add(result) {...}
+
+</script>
+
+</html>
