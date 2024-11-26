@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<style>
+button {
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<button>xxx</button>
+<p id="text">여기서 이벤트 처리 합니다.</p>
+
+</body>
+</html>
+
+<script>
+$("#text").on({ // 모든 <button>요소에
+
+    mouseenter: function() { // mouseenter 이벤트를 설정함.
+        $("#text").append("마우스가 버튼 위로 진입했어요!<br>");
+    },
+
+    click: function() {      // click 이벤트를 설정함.
+        $("#text").append("마우스가 버튼을 클릭했어요!<br>");
+    },
+
+    mouseleave: function() { // mouseleave 이벤트를 설정함.
+        $("#text").append("마우스가 버튼 위에서 빠져나갔어요!<br>");
+    }
+ });
+</script>
