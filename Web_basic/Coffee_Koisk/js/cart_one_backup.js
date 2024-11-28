@@ -35,23 +35,7 @@ btnAmericano.addEventListener("click", (e) => {
     // orderAmericano(e, menu, price);
     orderCoffees(e, menu, price);
   } else {
-
-    // 수량을 증가시킨다.
-    orders[menu]["amount"]++;
-    if (orders[menu]["amount"] > 10) {
-      orders[menu]["amount"] = 10;
-      alert("수량은 10개까지 가능합니다.");
-    }
-    amount_id = "#"+coffee_id[menu]+"up"
-    console.log("amount_id&"+amount_id)
-    coffee_id = document.querySelector(amount_id)
-    document.querySelector("amount_id").innerHTML =
-      orders[menu]["amount"];
-    total_price_ = price * orders[menu]["amount"];
-    coffee_id.parentElement.querySelector("#total_price").value =
-      commaFormat(total_price_);
-    totalPayment();
-    //alert("이미 주문되었습니다 수량으로 조정하세요!!");
+    alert("이미 주문되었습니다 수량으로 조정하세요!!");
   }
 });
 

@@ -32,26 +32,9 @@ btnAmericano.addEventListener("click", (e) => {
   orderPreProcess(e);
   if (!btnAmericanoClicked) {
     btnAmericanoClicked = true;
-    // orderAmericano(e, menu, price);
-    orderCoffees(e, menu, price);
+    orderAmericano(e, menu, price);
   } else {
-
-    // 수량을 증가시킨다.
-    orders[menu]["amount"]++;
-    if (orders[menu]["amount"] > 10) {
-      orders[menu]["amount"] = 10;
-      alert("수량은 10개까지 가능합니다.");
-    }
-    amount_id = "#"+coffee_id[menu]+"up"
-    console.log("amount_id&"+amount_id)
-    coffee_id = document.querySelector(amount_id)
-    document.querySelector("amount_id").innerHTML =
-      orders[menu]["amount"];
-    total_price_ = price * orders[menu]["amount"];
-    coffee_id.parentElement.querySelector("#total_price").value =
-      commaFormat(total_price_);
-    totalPayment();
-    //alert("이미 주문되었습니다 수량으로 조정하세요!!");
+    alert("이미 주문되었습니다 수량으로 조정하세요!!");
   }
 });
 
@@ -59,8 +42,7 @@ btnAmericano.addEventListener("click", (e) => {
 btnLatte.addEventListener("click", (e) => {
   orderPreProcess(e);
   if (!btnLatteClicked) {
-    // orderLatte(e, menu, price);
-    orderCoffees(e, menu, price);
+    orderLatte(e, menu, price);
     btnLatteClicked = true;
   } else {
     alert("이미 주문되었습니다 수량으로 조정하세요!!");
@@ -71,8 +53,7 @@ btnLatte.addEventListener("click", (e) => {
 btnMoka.addEventListener("click", (e) => {
   orderPreProcess(e);
   if (!btnMokaClicked) {
-    // orderMoka(e, menu, price);
-    orderCoffees(e, menu, price);
+    orderMoka(e, menu, price);
     btnMokaClicked = true;
   } else {
     alert("이미 주문되었습니다 수량으로 조정하세요!!");
@@ -91,75 +72,6 @@ function orderPreProcess(e) {
   cart.style.display = "block";
 
   price = price.replace(",", "");
-}
-
-// 커피 주문 통합 함수
-function orderCoffees(event, menu, price) {
-  index = coffee_index[menu];
-  orders[menu]["price"] = price;
-  amount = orders[menu]["amount"];
-  total_price_ = commaFormat(price * amount);
-  const cancel = "cancel_" + coffee_id[menu];
-  const upButton = coffee_id[menu]+"up";
-  const downButton = coffee_id[menu]+"down";
-
-  // 장바구니 상품 태그
-  item = `
-    <span id="menu">${menu}</span>(<span id="price">${price}</span>원)
-        수량 : <button id="${upButton}">+</button>
-        <span id="amount">${amount}</span>
-        <button id="${downButton}">-</button>
-        금액 : <input type="text" id="total_price" value=${total_price_} readonly>
-    <button id="${cancel}">삭제</button>
-`;
-
-  const cartItem = document.querySelector("#cartItem");
-  const orderItem = document.createElement("li");
-  orderItem.innerHTML = item;
-  document.getElementById("cartItem").appendChild(orderItem);
-
-  const up_button = document.querySelector("#"+upButton);
-  console.log("up_button", up_button);
-  up_button.addEventListener("click", function (e) {
-    // amount 값을 증가
-    orders[menu]["amount"]++;
-    if (orders[menu]["amount"] > 10) {
-      orders[menu]["amount"] = 10;
-      alert("수량은 10개까지 가능합니다.");
-    }
-    this.parentElement.querySelector("#amount").innerHTML =
-      orders[menu]["amount"];
-    total_price_ = price * orders[menu]["amount"];
-    this.parentElement.querySelector("#total_price").value =
-      commaFormat(total_price_);
-    totalPayment();
-  });
-
-  const down_button = document.querySelector("#"+downButton);
-  down_button.addEventListener("click", function (e) {
-    // amount 값을 감소
-    amount = this.parentElement.querySelector("#amount").innerHTML;
-    amount--;
-    if (amount == 0) {
-      amount = 1;
-      alert("수량은 1이상 이어야 합니다.");
-    }
-    this.parentElement.querySelector("#amount").innerHTML = amount;
-
-    total_price_ = price * amount;
-    console.log("**" + total_price_);
-    this.parentElement.querySelector("#total_price").value =
-      commaFormat(total_price_);
-    totalPayment();
-  });
-  totalPayment();
-
-  // 주문 삭제 버튼 기능
-  const cancelOrderButton = document.querySelector("#" + cancel);
-  cancelOrderButton.addEventListener("click", function (event) {
-    // 아메리카로 주문 취소
-    cancelOrder(event, menu);
-  });
 }
 
 function orderAmericano(event, menu, price) {
