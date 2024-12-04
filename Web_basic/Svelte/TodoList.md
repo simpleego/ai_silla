@@ -112,6 +112,7 @@
 - addTodo(): 새로운 To-Do 항목을 추가.
 - deleteTodo(event): 특정 항목을 삭제.
 - toggleComplete(event): 특정 항목의 완료 상태를 반전.
+  
 -UI 구성
  -입력 필드와 버튼을 통해 To-Do 추가.
  -To-Do 목록을 렌더링하며 각 항목은 TodoItem 컴포넌트를 사용.
