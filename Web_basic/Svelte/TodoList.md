@@ -105,3 +105,14 @@
   }
 </style>
 ```
+## To-Do 리스트의 메인 컴포넌트로, 전체 애플리케이션의 상태와 UI를 관리합니다.
+
+- todos 배열: 각 To-Do 항목(id, text, completed 속성 포함)을 저장.
+- newTodo 변수: 입력 필드의 값과 바인딩.
+- addTodo(): 새로운 To-Do 항목을 추가.
+- deleteTodo(event): 특정 항목을 삭제.
+- toggleComplete(event): 특정 항목의 완료 상태를 반전.
+-UI 구성
+ -입력 필드와 버튼을 통해 To-Do 추가.
+ -To-Do 목록을 렌더링하며 각 항목은 TodoItem 컴포넌트를 사용.
+ -To-Do 항목 삭제 및 완료 상태 토글은 컴포넌트에서 발생한 이벤트로 처리.
