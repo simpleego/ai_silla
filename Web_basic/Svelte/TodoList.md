@@ -14,8 +14,7 @@
 > npm install로 node 모듈을 설치한다.
 > npm run dev로 node 서버를 개발자 환경모드로 실행한다.
 ## 2. Todo List 기본구조
-
-![image](https://github.com/user-attachments/assets/bfdf8c3a-c25f-4c96-8e15-a4dcad107d3f)
+![image](https://github.com/user-attachments/assets/557587ea-01ea-4602-bae4-6636a8d2dea7)
 
 - # 폴더 구조
 - public, src, scripts, node_modules
