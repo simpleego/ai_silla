@@ -4,7 +4,6 @@
     export let handleKeyUp;
 </script>
 
-
 <main>  
     <div id="insertItem"> 
         <p>To Do List</p>

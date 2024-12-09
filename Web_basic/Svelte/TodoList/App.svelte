@@ -54,8 +54,7 @@
 </script>
 
 <main>
-	<div>
-		<p>To Do List</p>
+	<div>	
 
 		<Input {title} {addTodo} {handleKeyUp}/>
 		
