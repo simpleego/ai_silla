@@ -31,7 +31,10 @@ ROWNUM
 * SQL의 함수는 DBMS가 제공하는 내장 함수\(built\-in function\)와 사용자가 필요에 따라 직접 만드는 사용자 정의 함수\(user\-defined function\)로 나뉨\.
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_0.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_0.jpg)
+
+![image](https://github.com/user-attachments/assets/02d59d9f-423f-4736-98b2-81c2e86f2cc1)
+
 
 # 1.1 SQL 내장함수
 
@@ -39,11 +42,11 @@ SQL 내장 함수는 상수나 속성 이름을 입력 값으로 받아 단일 �
 
 모든 내장 함수는 최초에 선언될 때 유효한 입력 값을 받아야 함\.
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_1.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_1.jpg)
 
 # 숫자 함수
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_2.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_2.jpg)
 
 
 
@@ -54,31 +57,31 @@ SQL 내장 함수는 상수나 속성 이름을 입력 값으로 받아 단일 �
 
 __질의 __  __4\-1   \-78__  __과 __  __\+78__  __의 절댓값을 __  __구하시오__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_3.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_3.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_4.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_4.jpg)
 
 __질의 __  __4\-2   4\.875__  __를__  __ __  __소수 첫째 자리까지 반올림한 값을 구하시요__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_5.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_5.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_6.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_6.jpg)
 
 __질의 __  __4\-3   __  __고객별 평균 주문 금액을 배 원 단위로 반올림한 값을 구하시요__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_7.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_7.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_8.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_8.jpg)
 
 # 문자 함수
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_9.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_9.jpg)
 
 REPLACE : 문자열을 치환하는 함수
 
 __질의 __  __4\-4   __  __도서제목에 야구가 포함된 도서를 농구로 변경한 후 도서 목록을 __  __보이시오__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_10.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_10.jpg)
 
 LENGTH : 글자의 수를 세어주는 함수 \(단위가 바이트\(byte\)가 아닌 문자 단위\)
 
@@ -88,25 +91,25 @@ __질의 __  __4\-5   __  __굿스포츠에서 출판한 도서의 제목과 제
 
 __             __  __ \(__  __한글은 __  __2__  __바이트 혹은 __  __UNICODE __  __경우는 __  __3__  __바이트를 차지함__  __\)__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_11.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_11.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_12.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_12.jpg)
 
 __질의 __  __4\-6   __  __마당서점의 고객 중에서 같은 성__  __\(__  __姓__  __\)__  __을 가진 사람이 몇 명이나 되는지 성별  __  __              __  __인원수를 __  __구하시오__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_13.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_13.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_14.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_14.jpg)
 
 # 날짜ㆍ시간 함수
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_15.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_15.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_16.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_16.jpg)
 
 __질의 __  __4\-7   __  __마당서점은 주문일로부터 __  __10__  __일 후 매출을 확정한다__  __\. __  __각 주문의 확정일자를 __  __구하시오__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_17.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_17.jpg)
 
 TO\_DATE : 문자형으로 저장된 날짜를 날짜형으로 변환하는 함수
 
@@ -114,9 +117,9 @@ TO\_CHAR : 날짜형을 문자형으로 변환하는 함수
 
 __질의 __  __4\-8  __  __ 마당서점이 __  __2014__  __년 __  __7__  __월 __  __7__  __일에 __  __주문받은__  __ 도서의 주문번호__  __\, __  __주문일__  __\, __  __고객번호__  __\, __  __              __  __도서번호를 모두 __  __보이시오__  __\.  __  __단 주문일은 ‘__  __yyyy__  __\-mm\-dd __  __요일’ 형태로 표시__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_18.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_18.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_19.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_19.jpg)
 
 SYSDATETIME  : 오라클의 현재 날짜와 시간을 반환하는 함수
 
@@ -124,7 +127,7 @@ SYSTIMESTAMP : 현재 날짜\, 시간과 함께 초 이하의 시간과 서버�
 
 __질의 __  __4\-9  __  __ __  __DBMS __  __서버에 설정된 현재 시간과 오늘 날짜를 __  __확인하시오__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_20.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_20.jpg)
 
 # 연습문제
 
@@ -190,15 +193,15 @@ __질의 __  __4\-9  __  __ __  __DBMS __  __서버에 설정된 현재 시간�
   * \(\* Mybook 테이블 생성은 웹페이지 스크립트 참조\)
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_21.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_21.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_22.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_22.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_23.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_23.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_24.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_24.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_25.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_25.jpg)
 
 
 
@@ -207,7 +210,7 @@ __질의 __  __4\-9  __  __ __  __DBMS __  __서버에 설정된 현재 시간�
   * NULL이 아닌 값을 찾을 때는 ‘＜＞’ 연산자가 아닌 ‘IS NOT NULL’을 사용함
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_26.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_26.jpg)
 
 
 
@@ -217,7 +220,7 @@ __질의 __  __4\-9  __  __ __  __DBMS __  __서버에 설정된 현재 시간�
 
 __질의 __  __4\-10  __  __ 이름__  __\, __  __전화번호가 포함된 고객목록을 __  __보이시오__  __\. __  __               __  __ __  __단__  __\, __  __전화번호가 없는 고객은 ‘__  __연락처없음__  __’ 으로 표시한다__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_27.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_27.jpg)
 
 # 1.3 ROWNUM
 
@@ -229,7 +232,7 @@ __질의 __  __4\-10  __  __ 이름__  __\, __  __전화번호가 포함된 고�
 
 __질의 __  __4\-11  __  __고객 목록에서 고객번호__  __\, __  __이름__  __\, __  __전화번호를 앞의 두 명만 __  __보이시오__  __\. __
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_28.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_28.jpg)
 
 # 연습문제
 
@@ -239,13 +242,13 @@ __질의 __  __4\-11  __  __고객 목록에서 고객번호__  __\, __  __이�
   * 질의의 결과를 보면서 NULL에 대한 개념을 정리해보시오\.
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_29.png)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_29.png)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_30.png)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_30.png)
 
 ROWNUM에 관한 다음 SQL 문에 답하시오\. 데이터는 마당서점 데이터베이스를 이용
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_31.png)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_31.png)
 
 # 02. 부속질의
 
@@ -264,9 +267,9 @@ ROWNUM에 관한 다음 SQL 문에 답하시오\. 데이터는 마당서점 데�
   * 주 질의\(main query\, 외부질의\)와 부속질의\(sub query\, 내부질의\)로 구성됨\.
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_32.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_32.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_33.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_33.jpg)
 
 # 2.1 중첩질의 – WHERE 부속질의
 
@@ -274,7 +277,7 @@ ROWNUM에 관한 다음 SQL 문에 답하시오\. 데이터는 마당서점 데�
 
 WHERE 절은 보통 데이터를 선택하는 조건 혹은 술어\(predicate\)와 같이 사용됨\. 그래서 중첩질의를 술어 부속질의\(predicate subquery\)라고도 함\.
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_34.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_34.jpg)
 
 
 
@@ -284,15 +287,15 @@ WHERE 절은 보통 데이터를 선택하는 조건 혹은 술어\(predicate\)�
 
 __질의 __  __4\-12   __  __평균 주문금액 이하의 주문에 대해서 주문번호와 금액을 __  __보이시오__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_35.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_35.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_36.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_36.jpg)
 
 __질의 __  __4\-13   __  __각 고객의 평균 주문금액보다 큰 금액의 주문 내역에 대해서 주문번호__  __\, __  __고객번호__  __\, __  __                __  __금액을 __  __보이시오__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_37.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_37.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_38.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_38.jpg)
 
 
 
@@ -302,7 +305,7 @@ __질의 __  __4\-13   __  __각 고객의 평균 주문금액보다 큰 금액�
 
 __질의 __  __4\-14   __  __대한민국에 거주하는 고객에게 판매한 도서의 총판매액을 __  __구하시오__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_39.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_39.jpg)
 
 
 
@@ -311,11 +314,11 @@ __질의 __  __4\-14   __  __대한민국에 거주하는 고객에게 판매한
 * 구문 구조
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_40.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_40.jpg)
 
 __질의 __  __4\-15   3__  __번 고객이 주문한 도서의 최고 금액보다 더 비싼 도서를 구입한 주문의 __  __                 __  __주문번호와__  __ __  __금액을 __  __보이시오__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_41.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_41.jpg)
 
 
 
@@ -328,11 +331,11 @@ __질의 __  __4\-15   3__  __번 고객이 주문한 도서의 최고 금액보
 
 __질의 __  __4\-16  EXISTS __  __연산자로 대한민국에 거주하는 고객에게 판매한 도서의 총 판매액을 __  __구하시오__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_42.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_42.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_43.png)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_43.png)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_44.png)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_44.png)
 
 # 2.2 스칼라 부속질의 – SELECT 부속질의
 
@@ -344,13 +347,13 @@ __질의 __  __4\-16  EXISTS __  __연산자로 대한민국에 거주하는 고
   * 주질의와 부속질의와의 관계는 상관/비상관 모두 가능함\.
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_45.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_45.jpg)
 
 __질의 __  __4\-17  __  __마당서점의 고객별 판매액을 __  __보이시오__  __\(__  __결과는 고객이름과 고객별 판매액을 출력__  __\)\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_46.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_46.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_47.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_47.jpg)
 
 
 
@@ -359,7 +362,7 @@ __질의 __  __4\-17  __  __마당서점의 고객별 판매액을 __  __보이�
 
 __질의 __  __4\-18   Orders __  __테이블에 각 주문에 맞는 도서이름을 __  __입력하시오__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_48.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_48.jpg)
 
 # 2.3 인라인 뷰- FROM 부속질의
 
@@ -374,9 +377,9 @@ __질의 __  __4\-18   Orders __  __테이블에 각 주문에 맞는 도서이�
 
 __질의 __  __4\-19  __  __고객번호가 __  __2 __  __이하인 고객의 판매액을 __  __보이시오__  __               __  __\(__  __결과는 고객이름과 고객별 판매액 출력__  __\)__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_49.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_49.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_50.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_50.jpg)
 
 # 연습문제
 
@@ -385,7 +388,7 @@ __질의 __  __4\-19  __  __고객번호가 __  __2 __  __이하인 고객의 �
 * 부속질의에 관한 다음 SQL 문을 수행해보고 어떤 질의에 대한 답인지 설명하시오\.
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_51.png)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_51.png)
 
 # 03. 뷰
 
@@ -411,7 +414,7 @@ __질의 __  __4\-19  __  __고객번호가 __  __2 __  __이하인 고객의 �
   * 3\. 삽입\, 삭제\, 갱신 연산에 많은 제약이 따름
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_52.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_52.jpg)
 
 # 3.1 뷰의 생성
 
@@ -421,23 +424,23 @@ Book 테이블에서 ‘축구’라는 문구가 포함된 자료만 보여주�
 
 위 SELECT 문을 이용해 작성한 뷰 정의문
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_53.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_53.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_54.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_54.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_55.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_55.jpg)
 
 __질의 __  __4\-20  __  __주소에 ‘__  __대한민국’을__  __ 포함하는 고객들로 구성된 뷰를 만들고 __  __조회하시오__  __\. __  __               __  __뷰의 이름은 __  __vw__  __\_ Customer__  __로 __  __설정하시오__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_56.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_56.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_57.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_57.jpg)
 
 __질의 __  __4\-21  Orders __  __테이블에 고객이름과 도서이름을 바로 확인할 수 있는 뷰를 생성한 후__  __\, __  __              ‘__  __김연아’ 고객이 구입한 도서의 주문번호__  __\, __  __도서이름__  __\, __  __주문액을 __  __보이시오__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_58.png)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_58.png)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_59.png)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_59.png)
 
 # 3.2 뷰의 수정
 
@@ -447,13 +450,13 @@ __질의 __  __4\-21  Orders __  __테이블에 고객이름과 도서이름을 
   * 결과확인
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_60.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_60.jpg)
 
 __질의 __  __4\-22  \[__  __질의 __  __4\-20\]__  __에서 생성한 뷰 __  __vw\_Customer__  __는 주소가 대한민국인 고객을 보여준다__  __\. __  __               __  __이 뷰를 영국을 주소로 가진 고객으로 __  __변경하시오__  __\. __  __	__  __phone __  __속성은 필요 없으므로 포함시키지 __  __마시오__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_61.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_61.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_62.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_62.jpg)
 
 # 3.3 뷰의 삭제
 
@@ -463,13 +466,13 @@ __질의 __  __4\-22  \[__  __질의 __  __4\-20\]__  __에서 생성한 뷰 __ 
   * 결과확인
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_63.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_63.jpg)
 
 __질의 __  __4\-23  __  __앞서 생성한 뷰 __  __vw\_Customer__  __를 __  __삭제하시오__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_64.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_64.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_65.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_65.jpg)
 
 # 연습문제
 
@@ -495,7 +498,7 @@ __08\. __  __다음에 해당하는 __  __뷰를__  __ 작성하시오__  __\. _
 
 # 4.1 데이터베이스의 물리적 저장
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_66.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_66.jpg)
 
 
 
@@ -515,15 +518,15 @@ __08\. __  __다음에 해당하는 __  __뷰를__  __ 작성하시오__  __\. _
     * \+ 데이터 전송시간\(data transfer time\, 데이터를 주기억장치로 읽어오는 시간\)
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_67.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_67.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_68.png)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_68.png)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_69.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_69.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_70.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_70.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_71.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_71.jpg)
 
 # 4.2 인덱스와 B-tree
 
@@ -565,7 +568,7 @@ TB단위
   * 도서의 색인이나 사전과 같이 데이터를 쉽고 빠르게 찾을 수 있도록 만든 데이터 구조
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_72.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_72.jpg)
 
 
 
@@ -578,7 +581,7 @@ TB단위
   * 데이터의 수정\, 삭제 등의 변경이 발생하면 인덱스의 재구성이 필요함\.
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_73.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_73.jpg)
 
 # 오라클 B-tree 인덱스
 
@@ -587,11 +590,11 @@ TB단위
 * 오라클 인덱스는 B\-tree를 변형하여 사용하며 명칭은 B\-tree로 동일한 이름으로 부름
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_74.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_74.jpg)
 
 # 4.2 인덱스와 B-tree
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_75.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_75.jpg)
 
 # 4.4 인덱스의 생성
 
@@ -606,17 +609,17 @@ TB단위
 * 인덱스의 생성 문법
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_76.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_76.jpg)
 
 __질의 __  __4\-24   Book __  __테이블의 __  __bookname__  __ __  __열을 대상으로 비 클러스터 인덱스 __  __ix\_Book__  __을 생성하라__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_77.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_77.jpg)
 
 __질의 __  __4\-25   Book __  __테이블의 __  __publisher\, price __  __열을 대상으로 인덱스 __  __ix\_Book2__  __를 __  __생성하시오__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_78.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_78.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_79.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_79.jpg)
 
 
 
@@ -625,17 +628,17 @@ __질의 __  __4\-25   Book __  __테이블의 __  __publisher\, price __  __열
   * 삭제 문법
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_80.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_80.jpg)
 
 __질의 __  __4\-26   __  __인덱스 __  __ix\_Book__  __을 __  __재생성하시오__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_81.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_81.jpg)
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_82.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_82.jpg)
 
 __질의 __  __4\-27  __  __인덱스 __  __ix\_Book__  __을 __  __삭제하시오__  __\.__
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_83.jpg)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_83.jpg)
 
 # 연습문제
 
@@ -651,7 +654,7 @@ __질의 __  __4\-27  __  __인덱스 __  __ix\_Book__  __을 __  __삭제하시
   * \(5\) \(3\)번에서 생성한 인덱스를 삭제하시오\.
 
 
-![](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_84.png)
+![image](img%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_84.png)
 
 # 요약
 
