@@ -31,7 +31,7 @@ ROWNUM
 * SQL의 함수는 DBMS가 제공하는 내장 함수\(built\-in function\)와 사용자가 필요에 따라 직접 만드는 사용자 정의 함수\(user\-defined function\)로 나뉨\.
 
 
-![image](./img/%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_0.jpg)
+![image](img/%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_0.jpg)
 
 ![image](https://github.com/user-attachments/assets/02d59d9f-423f-4736-98b2-81c2e86f2cc1)
 
