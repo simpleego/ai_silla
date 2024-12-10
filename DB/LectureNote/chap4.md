@@ -32,6 +32,7 @@ ROWNUM
 
 
 ![image](img/%5C4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_0.jpg)
+![image](https://github.com/simpleego/ai_silla/blob/main/DB/LectureNote/img/4%EC%9E%A5%20SQL%20%EA%B3%A0%EA%B8%89_0.jpg)
 
 ![image](https://github.com/user-attachments/assets/02d59d9f-423f-4736-98b2-81c2e86f2cc1)
 
