@@ -1,23 +1,37 @@
 <script>
     export let todo;
-    export let deleteTodo;
+    export let isEdit;
+    export let edit_id;
+    export let title;
+    export let deleteTodo;    
     export let handleComplete;
+    
+    export let editTodo;
+    export let updateTodo;
+    export let offEdit;
 </script>
 
 <main>
     <div>
-        <p>{todo.id}: {todo.title}</p>
-        <input
-            type="checkbox"
-            checked={todo.completed}
-            on:change={() => handleComplete(todo.id)}
-        />
-        <button>
-            <i class="fa fa-edit"></i>
-        </button>
-        <button on:click={() => deleteTodo(todo.id)}>
-            <i class="fa fa-trash-o"></i>
-        </button>
+
+        {#if isEdit && edit_id == todo.id}
+           <input type="text" bind:value={title} />
+          <button on:click={updateTodo(todo,title)}>Ok</button>
+          <button on:click={offEdit}>Cancel</button>
+        {:else}
+            <p>{todo.id}: {todo.title}</p>
+            <input
+                type="checkbox"
+                checked={todo.completed}
+                on:change={() => handleComplete(todo.id)}
+            />
+            <button on:click={() => editTodo(todo.id)}>
+                <i class="fa fa-edit"></i>
+            </button>
+            <button on:click={() => deleteTodo(todo.id)}>
+                <i class="fa fa-trash-o"></i>
+            </button>
+        {/if}
     </div>
 </main>
 
