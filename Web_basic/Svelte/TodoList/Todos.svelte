@@ -2,7 +2,23 @@
     import TodoItem from './TodoItem.svelte'
     export let todoList;
 
+    let isEdit = false;
+    let title = ''
+    let edit_id = ''
 
+    function editTodo(todo) {
+        isEdit = true;
+        title = todo.title;
+        edit_id = todo.id;
+    }
+
+    function offEdit(){
+
+    }
+
+    function updateTodo(){
+
+    }
 
     let deleteTodo = (id) => {
 		const index = todoList.findIndex((todo) => todo.id === id);
@@ -23,7 +39,9 @@
     {#each todoList as todo}
         <!-- <TodoItem {todo}/> -->
         <div>
-            <TodoItem {todo} {deleteTodo} {handleComplete}/>            
+            <TodoItem {isEdit} {edit_id} {title} {todo} 
+            {editTodo} {offEdit} {updateTodo}
+            {deleteTodo} {handleComplete}/>            
         </div>
     {/each}
 </main>
