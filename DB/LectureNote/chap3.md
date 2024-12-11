@@ -34,7 +34,7 @@ DML로 데이터를 삽입\, 수정\, 삭제하는 방법을 알아본다\.
 
 # 1.1 마당서점의 현황과 운영 시스템 환경
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_0.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_0.jpg)
 
 ![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_1.jpg)
 
