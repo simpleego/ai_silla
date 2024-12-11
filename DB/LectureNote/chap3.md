@@ -36,7 +36,7 @@ DML로 데이터를 삽입\, 수정\, 삭제하는 방법을 알아본다\.
 
 ![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_0.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_1.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_1.jpg)
 
 # 1.2 마당서점의 데이터
 
