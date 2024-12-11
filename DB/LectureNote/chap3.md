@@ -40,19 +40,19 @@ DML로 데이터를 삽입\, 수정\, 삭제하는 방법을 알아본다\.
 
 # 1.2 마당서점의 데이터
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_2.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_2.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_3.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_3.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_4.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_4.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_5.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_5.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_6.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_6.jpg)
 
 # 1.3 사용자별 요구 정보
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_7.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_7.jpg)
 
 # 02. 오라클 설치와 기본 사용법
 
@@ -70,7 +70,7 @@ DML로 데이터를 삽입\, 수정\, 삭제하는 방법을 알아본다\.
 | :-: | :-: |
 | <span style="color:#ff0000"> __18c __ </span>  <span style="color:#ff0000"> __XE __ </span>  <span style="color:#ff0000"> __\(Express Edition\)__ </span> | <span style="color:#000000">무료버전</span> |
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_8.png)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_8.png)
 
 
 
@@ -89,11 +89,11 @@ DML로 데이터를 삽입\, 수정\, 삭제하는 방법을 알아본다\.
 
 # SQL Plus
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_9.png)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_9.png)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_10.png)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_10.png)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_11.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_11.jpg)
 
 # 1.2 마당서점의 데이터
 
@@ -127,15 +127,15 @@ DML로 데이터를 삽입\, 수정\, 삭제하는 방법을 알아본다\.
   * 임의의 폴더에 압축파일을 해제하고 실행은 폴더에 포함된 sqldeveloper\.exe 파일을 실행시킨다\. \(단축아이콘을 만들어두면 편리하다\)
 
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_12.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_12.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_13.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_13.jpg)
 
 # 03. SQL 소개
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_14.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_14.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_15.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_15.jpg)
 
 
 
@@ -152,15 +152,15 @@ DML로 데이터를 삽입\, 수정\, 삭제하는 방법을 알아본다\.
     * GRANT\, REVOKE 문 등이 있음\.
 
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_16.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_16.jpg)
 
 __예__  __\)  __  __김연아 고객의 전화번호를 __  __찾으시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_17.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_17.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_18.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_18.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_19.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_19.jpg)
 
 # 04. 데이터 조작어 - 검색
 
@@ -174,65 +174,65 @@ SELECT 문의 구성 요소
 
 SELECT 문의 기본 문법
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_20.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_20.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_21.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_21.jpg)
 
 SELECT 문의 기본 문법
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_22.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_22.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_23.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_23.jpg)
 
 # SELECT 문 예제
 
 __질의 __  __3\-1   __  __모든 도서의 이름과 가격을 __  __검색하시오__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_24.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_24.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_25.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_25.jpg)
 
 __질의 __  __3\-1 __  __변형__  __  __  __모든 도서의 이름과 가격을 __  __검색하시오__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_26.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_26.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_27.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_27.jpg)
 
 __질의 __  __3\-2   __  __모든 도서의 도서번호__  __\,  __  __도서이름__  __\, __  __출판사__  __\, __  __가격을 __  __검색하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_28.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_28.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_29.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_29.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_30.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_30.jpg)
 
 __질의 __  __3\-3   __  __도서 테이블에 있는 모든 출판사를 __  __검색하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_31.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_31.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_32.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_32.jpg)
 
 ※ 중복을 제거하고 싶으면 DISTINCT 키워드를 사용
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_33.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_33.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_34.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_34.jpg)
 
 # 조건 검색_WHERE
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_35.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_35.jpg)
 
 __질의 __  __3\-4   __  __가격이 __  __20\,000__  __원 미만인 도서를 __  __검색하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_36.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_36.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_37.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_37.jpg)
 
 __질의 __  __3\-5   __  __가격이 __  __10\,000__  __원 이상 __  __20\,000 __  __이하인 도서를 __  __검색하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_38.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_38.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_39.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_39.jpg)
 
 
 
@@ -242,47 +242,47 @@ __질의 __  __3\-5   __  __가격이 __  __10\,000__  __원 이상 __  __20\,00
 
 __질의 __  __3\-6   __  __출판사가 ‘굿스포츠’ 혹은 ‘__  __대한미디어’인__  __ 도서를 __  __검색하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_40.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_40.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_41.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_41.jpg)
 
 __질의 __  __3\-7   ‘__  __축구의 __  __역사’를__  __ 출간한 출판사를 __  __검색하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_42.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_42.jpg)
 
 __질의 __  __3\-8   __  __도서이름에 ‘__  __축구’가__  __ 포함된 출판사를 __  __검색하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_43.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_43.jpg)
 
 __질의 __  __3\-9   __  __도서이름의 왼쪽 두 번째 위치에 ‘__  __구’라는__  __ 문자열을 갖는 도서를 __  __검색하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_44.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_44.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_45.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_45.jpg)
 
 __질의 __  __3\-10   __  __축구에 관한 도서 중 가격이 __  __20\,000__  __원 이상인 도서를 __  __검색하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_46.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_46.jpg)
 
 __질의 __  __3\-11   __  __출판사가 ‘굿스포츠’ 혹은 ‘__  __대한미디어’인__  __ 도서를 __  __검색하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_47.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_47.jpg)
 
 # 검색 결과의 정렬_ORDER BY
 
 __질의 __  __3\-12   __  __도서를 이름순으로 __  __검색하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_48.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_48.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_49.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_49.jpg)
 
 __질의 __  __3\-13   __  __도서를 가격순으로 검색하고__  __\, __  __가격이 같으면 이름순으로 __  __검색하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_50.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_50.jpg)
 
 __질의 __  __3\-14__  __   __  __도서를 가격의 내림차순으로 __  __검색하시오__  __\. __  __만약 가격이 같다면 출판사의 오름차순으로 __  __검색하시오__  __ __
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_51.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_51.jpg)
 
 # 집계 함수
 
@@ -293,39 +293,39 @@ __질의 __  __3\-14__  __   __  __도서를 가격의 내림차순으로 __  __
 
 __질의 __  __3\-15   __  __고객이 주문한 도서의 총 판매액을 __  __구하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_52.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_52.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_53.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_53.jpg)
 
 __질의 __  __3\-16   2__  __번 김연아 고객이 주문한 도서의 총 판매액을 __  __구하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_54.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_54.jpg)
 
 __질의 __  __3\-17   __  __고객이 주문한 도서의 총 판매액__  __\, __  __평균값__  __\, __  __최저가__  __\, __  __최고가를 __  __구하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_55.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_55.jpg)
 
 __질의 __  __3\-18   __  __마당서점의 도서 판매 건수를 __  __구하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_56.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_56.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_57.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_57.jpg)
 
 # GROUP BY 검색
 
 __질의 __  __3\-19   __  __고객별로 주문한 도서의 총 수량과 총 판매액을 __  __구하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_58.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_58.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_59.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_59.jpg)
 
 __질의 __  __3\-20   __  __가격이 __  __8\,000__  __원 이상인 도서를 구매한 고객에 대하여 고객별 주문 도서의 __  __                __  __총 수량을 __  __구하시오__  __\.  __  __단__  __\, __  __두 권 이상 구매한 고객만 구한다__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_60.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_60.jpg)
 
 GROUP BY와 HAVING 절의 문법과 주의사항
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_61.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_61.jpg)
 
 # 연습문제
 
@@ -354,71 +354,71 @@ GROUP BY와 HAVING 절의 문법과 주의사항
   * Customer와 Orders 테이블의 합체 결과 투플의 개수는 고객이 다섯 명이고 주문이 열 개이므로 5×10 해서 50이 됨
 
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_62.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_62.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_63.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_63.jpg)
 
 # 조인
 
 __질의 __  __3\-21   __  __고객과 고객의 주문에 관한 데이터를 모두 __  __보이시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_64.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_64.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_65.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_65.jpg)
 
 __질의 __  __3\-22   __  __고객과 고객의 주문에 관한 데이터를 고객번호 순으로 정렬하여 __  __보이시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_66.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_66.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_67.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_67.jpg)
 
 __질의 __  __3\-23   __  __고객의 이름과 고객이 주문한 도서의 판매가격을 __  __검색하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_68.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_68.jpg)
 
 __질의 __  __3\-24   __  __고객별로 주문한 모든 도서의 총 판매액을 구하고__  __\, __  __고객별로 __  __정렬하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_69.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_69.jpg)
 
 __다음과 같은 질의는 어떻게 구할 수 있는가__  __?__
 
 __\- “__  __고객의 이름과 고객이 주문한 도서의 이름을 __  __구하시오__  __”  __
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_70.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_70.jpg)
 
 __질의 __  __3\-25   __  __고객의 이름과 고객이 주문한 도서의 이름을 __  __구하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_71.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_71.jpg)
 
 __질의 __  __3\-26   __  __가격이 __  __20\,000__  __원인 도서를 주문한 고객의 이름과 도서의 이름을 __  __구하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_72.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_72.jpg)
 
 __질의 __  __3\-27  __  __도서를 구매하지 않은 고객을 포함하여 고객의 이름과 고객이 주문한 도서의 __  __               __  __판매가격을__  __ __  __구하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_73.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_73.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_74.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_74.jpg)
 
 # 부속질의
 
 __질의 __  __3\-28  __  __가장 비싼 도서의 이름을 __  __보이시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_75.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_75.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_76.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_76.jpg)
 
 __질의 __  __3\-29   __  __도서를 구매한 적이 있는 고객의 이름을 __  __검색하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_77.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_77.jpg)
 
 __질의 __  __3\-30   __  __대한미디어에서 출판한 도서를 구매한 고객의 이름을 __  __보이시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_78.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_78.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_79.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_79.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_80.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_80.jpg)
 
 
 
@@ -429,9 +429,9 @@ __질의 __  __3\-30   __  __대한미디어에서 출판한 도서를 구매한
 
 __질의 __  __3\-31   __  __출판사별로 출판사의 평균 도서 가격보다 비싼 도서를 __  __구하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_81.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_81.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_82.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_82.jpg)
 
 # 집합연산
 
@@ -441,11 +441,11 @@ __질의 __  __3\-31   __  __출판사별로 출판사의 평균 도서 가격�
   * 주의할점: Oracle은 차집합을  __MINUS__ 로 하지만 SQL 표준에서는  __EXCEPT__  를 사용
 
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_83.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_83.jpg)
 
 __질의 __  __3\-32   __  __도서를 주문하지 않은 고객의 이름을 __  __보이시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_84.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_84.jpg)
 
 # EXISTS
 
@@ -459,9 +459,9 @@ __질의 __  __3\-32   __  __도서를 주문하지 않은 고객의 이름을 _
 
 __질의 __  __3\-33  __  __주문이 있는 고객의 이름과 주소를 __  __보이시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_85.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_85.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_86.png)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_86.png)
 
 # 연습문제
 
@@ -497,7 +497,7 @@ DROP TABLE 문
   * CREATE TABLE 문의 기본 문법
 
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_87.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_87.jpg)
 
 
 
@@ -506,7 +506,7 @@ DROP TABLE 문
   * CREATE TABLE 문의 기본 문법
 
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_88.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_88.jpg)
 
 
 
@@ -523,9 +523,9 @@ __	 publisher\(__  __출판사__  __\) – VARCHAR2\(20\)__
 
 __	 price\(__  __가격__  __\) – NUMBER__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_89.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_89.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_90.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_90.jpg)
 
 
 
@@ -533,11 +533,11 @@ __	 price\(__  __가격__  __\) – NUMBER__
   * NewBook 테이블의 CREATE 문에 좀 더 복잡한 제약사항을 추가
 
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_91.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_91.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_92.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_92.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_93.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_93.jpg)
 
 
 
@@ -548,7 +548,7 @@ __	 price\(__  __가격__  __\) – NUMBER__
 * __	 phone\(__  __전화번호__  __\) __  __	– __  __VARCHAR2\(30\)__
 
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_94.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_94.jpg)
 
 __질의 __  __3\-36   __  __다음과 같은 속성을 가진 __  __NewOrders__  __ __  __테이블을 __  __생성하시오__  __\.__
 
@@ -562,7 +562,7 @@ __ __  __saleprice__  __\(__  __판매가격__  __\) \- NUMBER __
 
 __ __  __orderdate__  __\(__  __판매일자__  __\) \- DATE__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_95.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_95.jpg)
 
 
 
@@ -572,7 +572,7 @@ __ __  __orderdate__  __\(__  __판매일자__  __\) \- DATE__
   * NO ACTION은 어떠한 동작도 취하지 않음\.
 
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_96.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_96.jpg)
 
 # 4.2 ALTER TABLE 문
 
@@ -585,31 +585,31 @@ __ __  __orderdate__  __\(__  __판매일자__  __\) \- DATE__
   * ALTER 문의 기본 문법
 
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_97.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_97.jpg)
 
 __실습을 위하여 __  __NewBook__  __ __  __테이블을 지우고 질의__  __3\-34 __  __NewBook__  __ __  __테이블을 새로 생성한다__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_98.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_98.jpg)
 
 __질의 __  __3\-37   __  __NewBook__  __ __  __테이블에 __  __VARCHAR2\(13\)__  __의 자료형을 가진 __  __isbn__  __ __  __속성을 __  __추가하시오__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_99.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_99.jpg)
 
 __질의 __  __3\-38   __  __NewBook__  __ __  __테이블의 __  __isbn__  __ __  __속성의 데이터 타입을 __  __NUMBER__  __형으로 __  __변경하시__  __오__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_100.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_100.jpg)
 
 __질의 __  __3\-39   __  __NewBook__  __ __  __테이블의 __  __isbn__  __ __  __속성을 __  __삭제하시오__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_101.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_101.jpg)
 
 __질의 __  __3\-40   __  __NewBook__  __ __  __테이블의 __  __bookid__  __ __  __속성에 __  __NOT NULL __  __제약조건을 __  __적용하시오__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_102.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_102.jpg)
 
 __질의 __  __3\-41   __  __NewBook__  __ __  __테이블의 __  __bookid__  __ __  __속성을 기본키로 __  __변경하시오__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_103.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_103.jpg)
 
 # 4.3 DROP TABLE 문
 
@@ -622,17 +622,17 @@ __질의 __  __3\-41   __  __NewBook__  __ __  __테이블의 __  __bookid__  __
 * DROP문의 기본 문법
 
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_104.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_104.jpg)
 
 __질의 __  __3\-42   __  __NewBook__  __ __  __테이블을 __  __삭제하시오__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_105.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_105.jpg)
 
 __질의 __  __3\-43__  __   __  __NewCustomer__  __ __  __테이블을 __  __삭제하시오__  __\. __  __만약 삭제가 거절된다면 원인을 __  __                __  __파악하고 관련된 __  __ __  __테이블을 같이 __  __삭제하시오__  __ __  __                __  __\(__  __NewOrders__  __ __  __테이블이 __  __NewCustomer__  __를 참조하고 있음__  __\)__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_106.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_106.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_107.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_107.jpg)
 
 # 05. 데이터 조작어 – 삽입, 수정, 삭제
 
@@ -648,23 +648,23 @@ INSERT 문은 테이블에 새로운 투플을 삽입하는 명령임\.
 
 INSERT 문의 기본 문법
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_108.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_108.jpg)
 
 __질의 __  __3\-44   Book __  __테이블에 새로운 도서 ‘스포츠 __  __의학’을__  __ __  __삽입하시오__  __\. __  __스포츠 의학은 __  __                __  __한솔의학서적에서 출간했으며 가격은 __  __90\,000__  __원이다__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_109.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_109.jpg)
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_110.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_110.jpg)
 
 __질의 __  __3\-45   Book __  __테이블에 새로운 도서 ‘스포츠 __  __의학’을__  __ __  __삽입하시오__  __\. __  __스포츠 의학은 __  __          __  __    __  __  __  __한솔의학서적에서 출간했으며 가격은 미정이다__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_111.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_111.jpg)
 
 대량 삽입\(bulk insert\)이란 한꺼번에 여러 개의 투플을 삽입하는 방법임\.
 
 __질의 __  __3\-46   __  __수입도서 목록__  __\(__  __Imported\_book__  __\)__  __을 __  __Book __  __테이블에 모두 __  __삽입하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_112.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_112.jpg)
 
 # 5.2 UPDATE 문
 
@@ -672,15 +672,15 @@ __UPDATE __  __문은 특정 속성 값을 수정하는 명령__
 
 __UPDATE __  __문의 기본 문법__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_113.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_113.jpg)
 
 __질의 __  __3\-47   Customer __  __테이블에서 고객번호가 __  __5__  __인 고객의 주소를 ‘대한민국 __  __부산’으로__  __ __  __변경하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_114.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_114.jpg)
 
 __질의 __  __3\-48   Customer __  __테이블에서 박세리 고객의 주소를 김연아 고객의 주소로 __  __변경하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_115.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_115.jpg)
 
 # 5.3 DELETE 문
 
@@ -688,15 +688,15 @@ DELETE 문은 테이블에 있는 기존 투플을 삭제하는 명령
 
 DELETE 문의 기본 문법
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_116.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_116.jpg)
 
 __질의 __  __3\-49   Customer __  __테이블에서 고객번호가 __  __5__  __인 고객을 __  __삭제하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_117.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_117.jpg)
 
 __질의 __  __3\-50   __  __모든 고객을 __  __삭제하시오__  __\.__
 
-![](img%5C3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_118.jpg)
+![image](img/3%EC%9E%A5%20%EA%B0%95%EC%9D%98_SQL%20%EA%B8%B0%EC%B4%88_118.jpg)
 
 # 연습문제
 
