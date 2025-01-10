@@ -5,10 +5,22 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Calculator extends JFrame {
-    JTextField num1, num2, result;
-    JButton add,sub,mul,div;
+public class Calculator extends JFrame implements ActionListener{
+    JTextField num1, num2, tfResult;
+    JButton add,sub,mul,div, square;
     JLabel lblNum1, lblNum2, lblResult;
+
+    public String getNum1(){
+        return num1.getText();
+    }
+
+    public String getNum2(){
+        return num2.getText();
+    }
+
+    public  void setResult(String result){
+        tfResult.setText(result);
+    }
 
     Calculator(){
         // 윈도우 초기설정
@@ -26,21 +38,23 @@ public class Calculator extends JFrame {
 
         num1 = new JTextField(15);
         num2 = new JTextField(15);
-        result = new JTextField(15);
+        tfResult = new JTextField(15);
 
         add = new JButton("덧셈");
         sub = new JButton("뺄셈");
+        mul = new JButton("곱셈");
+        div = new JButton("나눗셈");
+        square = new JButton("제곱");
 
-        sub.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
+        square.addActionListener(new NumberSquare(this));
+
+        sub.addActionListener(e-> {
                 String num1_ = num1.getText();
                 String num12_ = num2.getText();
                 String result_;
                 int sum = Integer.parseInt(num1_) - Integer.parseInt(num12_);
                 result_ = String.valueOf(sum);
-                result.setText(result_);
-            }
+                tfResult.setText(result_);
         });
 
         add.addActionListener(new ActionListener() {
@@ -51,21 +65,47 @@ public class Calculator extends JFrame {
                   String result_;
                   int sum = Integer.parseInt(num1_) + Integer.parseInt(num12_);
                   result_ = String.valueOf(sum);
-                  result.setText(result_);
+                  tfResult.setText(result_);
               }
           });
 
+        mul.addActionListener(this);
+        div.addActionListener(this);
 
-                // 컴포넌트 등록
-                add(lblNum1); add(num1);
+
+        // 컴포넌트 등록
+        add(lblNum1); add(num1);
         add(lblNum2); add(num2);
         add(add); add(sub);
+        add(mul); add(div);
+        add(square);
 
-        add(lblResult); add(result);
+        add(lblResult); add(tfResult);
         setVisible(true);
     }
 
     public static void main(String[] args) {
-        new  Calculator();
+        Calculator calculator = new  Calculator();
+
+
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        String num1_ = num1.getText();
+        String num12_ = num2.getText();
+        String result_;
+        int result;
+
+        JButton button = (JButton)e.getSource();
+
+        if(button == mul) {
+            result = Integer.parseInt(num1_) * Integer.parseInt(num12_);
+        }else {
+            result = Integer.parseInt(num1_) / Integer.parseInt(num12_);
+        }
+
+        result_ = String.valueOf(result);
+        tfResult.setText(result_);
     }
 }
