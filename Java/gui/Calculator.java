@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 
 public class Calculator extends JFrame implements ActionListener{
     JTextField num1, num2, tfResult;
-    JButton add,sub,mul,div, square;
+    JButton add,sub,mul,div, square, sqrt;
     JLabel lblNum1, lblNum2, lblResult;
 
     public String getNum1(){
@@ -45,8 +45,10 @@ public class Calculator extends JFrame implements ActionListener{
         mul = new JButton("곱셈");
         div = new JButton("나눗셈");
         square = new JButton("제곱");
+        sqrt = new JButton("root");
 
         square.addActionListener(new NumberSquare(this));
+        sqrt.addActionListener(new MySqrt());
 
         sub.addActionListener(e-> {
                 String num1_ = num1.getText();
@@ -79,10 +81,22 @@ public class Calculator extends JFrame implements ActionListener{
         add(add); add(sub);
         add(mul); add(div);
         add(square);
+        add(sqrt);
 
         add(lblResult); add(tfResult);
         setVisible(true);
     }
+
+    // 내부 클래스로 이벤트 처리
+    private class MySqrt implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            String num1_ = num1.getText();
+            tfResult.setText(String.valueOf(Math.sqrt(Double.parseDouble(num1_))));
+        }
+    }
+
 
     public static void main(String[] args) {
         Calculator calculator = new  Calculator();
