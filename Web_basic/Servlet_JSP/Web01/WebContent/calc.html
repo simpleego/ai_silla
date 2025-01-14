@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	#wrapper {
+		width: 400px;
+		margin: 50px auto;
+		padding: 30px;
+		border: 10px solid #ddd;	
+	}
+	
+	#field {
+		width: 90%;
+		margin: 0px auto;	
+		padding: 30px;
+		border: 1px solid #aaa;	
+		border-radius: 30px; 
+	}
+	
+	legend {
+		margin: 0px auto;
+		padding: 10px;
+		border: 2px solid #ddd;	
+		background-color: #999;
+		border-radius: 30px; 
+	}
+	
+	#content {
+		width: 200px;
+		margin: 0px auto;
+	}
+	
+	input {
+		text-align: right;
+	}
+</style>
+</head>
+<body>
+<div id="wrapper">	
+	<form action="calc" method="post">
+		<fieldset id="field"> 
+			<legend>간단한 계산기</legend>
+			<div id="content">
+				<label>숫자1 : </label><input type="text" name="num1"  value="0"  size=5></br>
+				<label>숫자2 : </label><input type="text" name="num2"  value="0" size=5></br>
+				<input type="submit" name=op value="+">	
+				<input type="submit" name=op value="-">	
+				<input type="submit" name=op value="x">	
+				<input type="submit" name=op value="/">	
+			</div>
+		</fieldset>
+	</form>
+</div>
+
+</body>
+</html>
