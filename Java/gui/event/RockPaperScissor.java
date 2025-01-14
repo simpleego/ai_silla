@@ -54,7 +54,32 @@ public class RockPaperScissor extends JFrame implements ActionListener {
         // 컴퓨터가 먼저 가위/바위/보 중에서 하나를 결정
         Random random = new Random();
         int computer = random.nextInt(3);
-        output.setText(""+computer);
+        if(e.getSource() == rock){
+            if(computer == SCISSOR){
+                output.setText("사용자 승리");
+            }else if(computer == ROCK){
+                output.setText("비겼습니다.");
+            }else {
+                output.setText("컴퓨터 승리");
+            }
+        } else if (e.getSource() == paper) {
+            if(computer == ROCK){
+                output.setText("사용자 승리");
+            }else if(computer == PAPER){
+                output.setText("비겼습니다.");
+            }else {
+                output.setText("컴퓨터 승리");
+            }
+
+        }else if (e.getSource() == scissor) {
+            if (computer == PAPER) {
+                output.setText("사용자 승리");
+            } else if (computer == SCISSOR) {
+                output.setText("비겼습니다.");
+            } else {
+                output.setText("컴퓨터 승리");
+            }
+        }
     }
 
     public static void main(String[] args) {
