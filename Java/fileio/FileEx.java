@@ -4,7 +4,7 @@ import java.io.File;
 
 public class FileEx {
     public static void main(String[] args) {
-        File file = new File("c:\\windows\\system.ini");
+        File file = new File("c:\\\\system.ini");
         System.out.println(file.getPath()+","+file.getParent()+
                 ","+file.getName());
 
