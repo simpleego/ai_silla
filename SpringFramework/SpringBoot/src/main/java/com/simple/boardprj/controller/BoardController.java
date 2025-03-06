@@ -1,6 +1,7 @@
 package com.simple.boardprj.controller;
 
 import com.simple.boardprj.dto.BoardDTO;
+import com.simple.boardprj.dto.BoardFileDTO;
 import com.simple.boardprj.service.BoardService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import java.io.IOException;
 import java.util.List;
 
 @Controller
@@ -24,7 +26,7 @@ public class BoardController {
     }
 
     @PostMapping("/save")
-    public String save(BoardDTO boardDTO){
+    public String save(BoardDTO boardDTO) throws IOException {
         System.out.println("post ==>");
         boardService.save(boardDTO);
         return "redirect:/list";
@@ -38,6 +40,12 @@ public class BoardController {
         //상세내용 가져오기
         BoardDTO boardDTO = boardService.findById(id);
         model.addAttribute("board", boardDTO);
+
+        //파일첨부 추가된 부분
+        if(boardDTO.getFileAttached() == 1){
+            List<BoardFileDTO> boardFileDTOList = boardService.findFile(id);
+            model.addAttribute("boardFileDTOList", boardFileDTOList);
+        }
         return "detail";
     }
 
